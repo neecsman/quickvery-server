@@ -7,7 +7,7 @@ const headers = {
 };
 
 const baseQuery = axios.create({
-  baseURL: "https://robot.dostavista.ru/api/business/1.2",
+  baseURL: "https://robotapitest.dostavista.ru/api/business/1.2",
   headers,
 });
 
