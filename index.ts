@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "http://quickvery.ru",
+    origin: "https://quickvery.ru",
   })
 );
 app.use(router);
